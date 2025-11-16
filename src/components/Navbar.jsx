@@ -34,7 +34,7 @@ const Navbar = () => {
               to="/contacts"
               className="px-3 py-1 rounded-2xl hover:text-amber-600 hover:font-semibold transition"
             >
-              Contacts
+              Contact
             </Link>
           </nav>
 
