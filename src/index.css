@@ -5,7 +5,3 @@
   background-color: #000000;
   padding: 2px;
 }
-
-@utility text-gradient {
-  @apply bg-linear-to-r from-[#9d9af3] to-[#5450d1] bg-clip-text text-transparent;
-}
