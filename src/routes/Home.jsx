@@ -42,7 +42,7 @@ const About = () => {
             className="font-semibold px-3 rounded-3xl bg-[#00000080] self-start w-fit"
             id="heroText"
           >
-            BRIAN<span className="text-amber-600 ">CHOGA</span>
+            BRIAN<span className="text-yellow-600 ">CHOGA</span>
           </div>
 
           <p className="text-[18px] mt-1">
@@ -52,7 +52,7 @@ const About = () => {
       </section>
 
       <section className="mt-20 px-2 w-full shadow-lg" id="persoanlStatement">
-        <h2 className="text-amber-600 font-bold mb-5">PERSONAL STATEMENT</h2>
+        <h2 className="text-yellow-600 font-bold mb-5">PERSONAL STATEMENT</h2>
         <div className="font-light text-neutral-400">
           <p className="mb-3">
             I am an Electronic Engineer who loves both Hardware and Software,
@@ -77,7 +77,7 @@ const About = () => {
       </section>
 
       <section id="skills" className="w-full shadow-lg px-2 mt-20">
-        <h2 className="text-amber-600 font-bold mb-5">SKILLS</h2>
+        <h2 className="text-yellow-600 font-bold mb-5">SKILLS</h2>
         <div className="flex flex-wrap justify-center">
           <SkillCard
             iconPath={web}
@@ -133,13 +133,13 @@ const About = () => {
         className="mb-20 w-full shadow-lg px-2 mt-20 text-neutral-400"
         id="experience"
       >
-        <h2 className="text-amber-600 font-bold mb-5">EXPERIENCE</h2>
+        <h2 className="text-yellow-600 font-bold mb-5">EXPERIENCE</h2>
         <div id="embedded">
           <p className="text-white font-semibold text-2xl">
             ① Embedded Systems Developer
           </p>
           <div className=" mb-5 flex gap-6">
-            <span className="text-amber-600 text-2xl ">
+            <span className="text-yellow-600 text-2xl ">
               <a
                 href="https://www.linkedin.com/company/aura-group-pvt-ltd/"
                 target="_blank"
@@ -158,7 +158,7 @@ const About = () => {
           </div>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             Developed Firmware for an ESD (Electronic Signature Device) using
@@ -169,7 +169,7 @@ const About = () => {
           </p>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             Worked together with the other software team responsible for the
@@ -179,7 +179,7 @@ const About = () => {
           </p>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-500 text-2xl align-middle">
               ⦾
             </span>{" "}
             Designed the hardware of a portable Electronic Signature Device
@@ -194,7 +194,7 @@ const About = () => {
             ② Engineering Supervisor
           </p>
           <div className=" mb-5 flex gap-6">
-            <span className="text-amber-600 text-2xl ">
+            <span className="text-yellow-600 text-2xl ">
               <a
                 href="https://www.facebook.com/p/Cognitive-Technogies-100063796429781/"
                 target="_blank"
@@ -213,7 +213,7 @@ const About = () => {
           </div>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             Overseeing and managing Solar Installation projects. Ensure Solar
@@ -221,7 +221,7 @@ const About = () => {
           </p>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             Trainning technicians how to execute installations and other
@@ -229,7 +229,7 @@ const About = () => {
           </p>
 
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             Designing Solar Systems to meet customer needs and communicate with
@@ -243,7 +243,7 @@ const About = () => {
         id="certifications"
         className="w-full shadow-lg mb-20 text-neutral-400 px-2"
       >
-        <h2 className="text-amber-600 font-bold mb-5">CERTIFICATES</h2>
+        <h2 className="text-yellow-600 font-bold mb-5">CERTIFICATES</h2>
         <div id="DSA">
           <p className="text-white font-semibold text-2xl">
             ① Data Structures & Algorithms
@@ -251,12 +251,12 @@ const About = () => {
           <a
             href="https://www.udemy.com/certificate/UC-1ef29a3c-1e9a-42cc-95cc-121475e7c9b1/"
             target="_blank"
-            className="text-amber-600 text-2xl "
+            className="text-yellow-600 text-2xl "
           >
             @Udemy
           </a>
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             This hands on tutorial taught me a lot about DSA, I learned how to
@@ -273,12 +273,12 @@ const About = () => {
           <a
             href="https://credsverse.com/credentials/2db3fccc-5ba6-42ed-b355-642021196b3b"
             target="_blank"
-            className="text-amber-600 text-2xl "
+            className="text-yellow-600 text-2xl "
           >
             @Tunga
           </a>
           <p className="mt-3">
-            <span id="bullet" className="text-amber-600 text-2xl align-middle">
+            <span id="bullet" className="text-yellow-600 text-2xl align-middle">
               ⦾
             </span>{" "}
             This cohort openned the word of web development to me, having had
@@ -290,7 +290,7 @@ const About = () => {
       </section>
 
       <section id="skills" className="w-full shadow-lg px-2 mt-20">
-        <h2 className="text-amber-600 font-bold mb-5">TOOL STACK</h2>
+        <h2 className="text-yellow-600 font-bold mb-5">TOOL STACK</h2>
         <div className="techCards flex justify-center flex-wrap mb-6">
           <TechCard iconPath={html} />
           <TechCard iconPath={css} />
@@ -309,7 +309,7 @@ const About = () => {
       </section>
 
       <Link to="/contacts">
-        <button className="bg-neutral-800 text-[18px] text-amber-600 rounded-3xl px-8 py-2 font-semibold hover:text-neutral-600 shadow-lg border-2 hover:border-amber-600 mt-10 mb-20 ">
+        <button className="bg-neutral-800 text-[18px] text-yellow-600 rounded-3xl px-8 py-2 font-semibold hover:text-neutral-600 shadow-lg border-2 hover:border-yellow-600 mt-10 mb-20 ">
           SAY HI
         </button>
       </Link>

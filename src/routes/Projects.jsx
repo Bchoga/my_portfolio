@@ -29,7 +29,7 @@ voluptate maxime voluptates dicta in commodi rem, asperiores iure cum.
 const Projects = () => {
   return (
     <div className="min-h-screen w-full mt-56 mb-20 rounded-3xl p-3 ">
-      <h2 className="mb-20  text-amber-600 font-semibold ">
+      <h2 className="mb-20  text-yellow-600 font-semibold ">
         FEATURED PROJECTS
       </h2>
       <div className="w-full flex flex-wrap justify-center gap-14">
@@ -64,7 +64,7 @@ const Projects = () => {
 
       <div className="w-ful flex justify-center">
         <Link to="/contacts">
-          <button className="bg-neutral-800 text-[18px] text-amber-600 rounded-3xl px-8 py-2 font-semibold hover:text-neutral-600 shadow-lg border-2 hover:border-amber-600 mt-20 mb-20 ">
+          <button className="bg-neutral-800 text-[18px] text-yellow-600 rounded-3xl px-8 py-2 font-semibold hover:text-neutral-600 shadow-lg border-2 hover:border-yellow-600 mt-20 mb-20 ">
             CONNECT
           </button>
         </Link>

@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <div className="min-h-screen w-full flex flex-col justify-center items-center text-white p-3">
       <div className="max-w-80">
-        <h1 className="mb-10 border-b-2 border-amber-600 text-center">
+        <h1 className="mb-10 border-b-2 border-yellow-600 text-center">
           Thank You
         </h1>
         <p className="text-center">

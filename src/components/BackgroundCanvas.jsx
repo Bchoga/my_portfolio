@@ -29,7 +29,7 @@ const BackgroundCanvas = () => {
       y: Math.random() * window.innerHeight,
       vx: (Math.random() - 0.5) * 0.6,
       vy: (Math.random() - 0.5) * 0.6,
-      r: 0.8 + Math.random() * 1.6,
+      r: 0.8 + Math.random() * 2,
     }));
 
     let rafId;
@@ -37,7 +37,7 @@ const BackgroundCanvas = () => {
       ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
       // draw particles
-      ctx.fillStyle = "rgba(255,255,255,0.3)";
+      ctx.fillStyle = "rgba(255,255,255,0.8)";
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
         p.x += p.vx;
@@ -60,7 +60,7 @@ const BackgroundCanvas = () => {
           const dy = a.y - b.y;
           const dist = Math.hypot(dx, dy);
           if (dist < MAX_DIST) {
-            const alpha = (1 - dist / MAX_DIST) * 0.12;
+            const alpha = (1.5 - dist / MAX_DIST) * 0.12;
             ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
             ctx.lineWidth = 2;
             ctx.beginPath();

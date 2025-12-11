@@ -36,7 +36,7 @@ h2 {
 }
 .active-link {
   font-weight: 600;
-  color: #e17100;
+  color: #ca8a04;
 }
 
 .bg-canvas {
@@ -47,4 +47,14 @@ h2 {
   z-index: -1; /* behind your app */
   pointer-events: none; /* clicks go through */
   background: transparent;
+}
+
+.bg-dark-transparent,
+.fg-dark-transparent {
+  background-color: #0f0f0fdd;
+}
+
+.bg-dark,
+.fg-dark-transparent {
+  background-color: #0f0f0f;
 }

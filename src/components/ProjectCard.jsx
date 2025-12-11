@@ -22,7 +22,7 @@ const ProjectCard = ({ imagePath, name, techArray, description, webLink }) => {
           id="DetailsAndLinksContainer"
         >
           <div id="nameAndTech" className="flex flex-wrap gap-8">
-            <p className="text-amber-600 font-bold text-lg mb-2 truncate">
+            <p className="text-yellow-600 font-bold text-lg mb-2 truncate">
               {name}
             </p>
             <div className="flex gap-2">
@@ -48,7 +48,7 @@ const ProjectCard = ({ imagePath, name, techArray, description, webLink }) => {
               href={webLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="border-[1px]  border-white bg-neutral-900  text-white hover:border-amber-600 flex-1 sm:flex-none sm:w-40 rounded-3xl p-2 flex justify-center items-center gap-2.5 text-sm"
+              className="border-[1px]  border-white bg-neutral-900  text-white hover:border-yellow-600 flex-1 sm:flex-none sm:w-40 rounded-3xl p-2 flex justify-center items-center gap-2.5 text-sm"
             >
               <img src={webIcon} alt="live site" className="w-5 h-5" />
               View App
